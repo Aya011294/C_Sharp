@@ -21,3 +21,5 @@ int Exponentiation(int numberA, int numberB)
 }
 int result = Exponentiation(numberA, numberB);
 Console.WriteLine("Ответ: " + result);
+
+
