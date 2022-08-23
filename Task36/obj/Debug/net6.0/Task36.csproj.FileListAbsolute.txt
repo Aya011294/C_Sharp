@@ -1,0 +1,15 @@
+/Users/aya/Учеба/C#/C_Sharp/Task36/obj/Debug/net6.0/Task36.csproj.AssemblyReference.cache
+/Users/aya/Учеба/C#/C_Sharp/Task36/obj/Debug/net6.0/Task36.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aya/Учеба/C#/C_Sharp/Task36/obj/Debug/net6.0/Task36.AssemblyInfoInputs.cache
+/Users/aya/Учеба/C#/C_Sharp/Task36/obj/Debug/net6.0/Task36.AssemblyInfo.cs
+/Users/aya/Учеба/C#/C_Sharp/Task36/obj/Debug/net6.0/Task36.csproj.CoreCompileInputs.cache
+/Users/aya/Учеба/C#/C_Sharp/Task36/bin/Debug/net6.0/Task36
+/Users/aya/Учеба/C#/C_Sharp/Task36/bin/Debug/net6.0/Task36.deps.json
+/Users/aya/Учеба/C#/C_Sharp/Task36/bin/Debug/net6.0/Task36.runtimeconfig.json
+/Users/aya/Учеба/C#/C_Sharp/Task36/bin/Debug/net6.0/Task36.dll
+/Users/aya/Учеба/C#/C_Sharp/Task36/bin/Debug/net6.0/Task36.pdb
+/Users/aya/Учеба/C#/C_Sharp/Task36/obj/Debug/net6.0/Task36.dll
+/Users/aya/Учеба/C#/C_Sharp/Task36/obj/Debug/net6.0/refint/Task36.dll
+/Users/aya/Учеба/C#/C_Sharp/Task36/obj/Debug/net6.0/Task36.pdb
+/Users/aya/Учеба/C#/C_Sharp/Task36/obj/Debug/net6.0/Task36.genruntimeconfig.cache
+/Users/aya/Учеба/C#/C_Sharp/Task36/obj/Debug/net6.0/ref/Task36.dll
