@@ -1,56 +1,37 @@
-﻿/* Задача 41: Пользователь вводит с клавиатуры M чисел. Посчитайте, сколько чисел больше 0 ввёл пользователь.
-0, 7, 8, -2, -2 -> 2
-1, -7, 567, 89, 223 -> 4 */
+﻿//Задача 41: Пользователь вводит с клавиатуры M чисел. Посчитайте, сколько чисел больше 0 ввёл пользователь.
+//0, 7, 8, -2, -2 -> 2
+//1, -7, 567, 89, 223 -> 4
 
-Console.WriteLine("Введите числа через запятую: ");
-string input = Console.ReadLine();
-
-int[] numbers = ParseStringToArray(input);
+Console.Write("Введите размер массива: ");
+int size = Convert.ToInt32(Console.ReadLine());
+int[] numbers = new int[size];
+FillArrayRandomNumbers(numbers);
 PrintArray(numbers);
 
-int[] ParseStringToArray(string input)
+    int Comparison(int[] numbers)
 {
-    int countNumbers = GetCountNumbersInString(input);
-    int[] numbers = new int[countNumbers];
-    int indexNumber = 0;
-    string substring = string.Empty;
-    for (int i = 0; i < input.Length; i++)
-    {
-        if (input[i] != ',')
-        {
-            substring += input[i];
-        }
-        else
-        {
-            numbers[indexNumber] = Convert.ToInt32(substring);
-            indexNumber++;
-            substring = string.Empty;
-        }
-    }
-    if(input[input.Length - 1] != ',')
-        numbers[indexNumber] = Convert.ToInt32(substring);
-    return numbers;
+  int count = 0;
+  for (int i = 0; i < numbers.Length; i++)
+  {
+    if(numbers[i] > 0 ) count += 1; 
+  }
+  return count;
 }
-int GetCountNumbersInString(string input) 
-{
-    int count;
-    if(input[input.Length - 1] == ',')
-        count = 0;
-    else
-        count = 1;
+Console.WriteLine($"Чисел больше 0: {Comparison(numbers)} ");
 
-    for(int i = 0; i < input.Length; i++)
+void FillArrayRandomNumbers(int[] array)
+{
+    for(int i = 0; i < array.Length; i++)
     {
-        if(input[i] == ',')
-            count++;
+        array[i] = new Random().Next(-10, 10);
     }
-    return count;
 }
 
 void PrintArray(int[] array)
 {
-    for (int i = 0; i < array.Length; i++)
+    for(int i = 0; i < array.Length; i++)
     {
         Console.Write(array[i] + " ");
     }
-}
+    Console.WriteLine();
+} 
