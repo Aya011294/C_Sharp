@@ -29,9 +29,6 @@ int[] ParseStringToArray(string input)
         numbers[indexNumber] = Convert.ToInt32(substring);
     return numbers;
 }
-от Александр Егоров для Все (23:35)
-он в телеге уже итак есть,все норм)))
-от Денис для Все (23:35)
 int GetCountNumbersInString(string input) 
 {
     int count;
