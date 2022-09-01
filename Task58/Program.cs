@@ -8,42 +8,36 @@
 15 18
 */
 
-int m = ReadInt("Введите количество строк первой матрицы: ");
-int n = ReadInt("Введите количество столбцов первой матрицы: ");
+int m = ReadInt("Введите количество строк матрицы: ");
+int n = ReadInt("Введите количество столбцов матрицы: ");
 
-int[,] firstMartrix = new int[m, n];
-Console.WriteLine($"матрица первая:");
-FillArray2D(firstMartrix );
-PrintArray2D(firstMartrix );
+int[,] firstarray = new int[m, n];
+FillArray2D(firstarray);
+PrintArray2D(firstarray);
+int[,] secondarray = new int[m, n];
+FillArray2D(secondarray);
+PrintArray2D(secondarray);
+int[,] resultarray = new int[m, n];
 
-int a = ReadInt("Введите количество строк второй матрицы: ");
-int b = ReadInt("Введите количество столбцов втрой матрицы: ");
-int[,] secomdMartrix = new int[a, b];
-Console.WriteLine("Вторая матрица:");
-FillArray2D(secomdMartrix);
-PrintArray2D(secomdMartrix);
-
-int[,] resultMatrix = new int[m, a];
-
-MultiplyMatrix(firstMartrix, secomdMartrix, resultMatrix);
+MultiplyMatrix(firstarray, secondarray, resultarray);
 Console.WriteLine("Произведение матриц:");
 
-void MultiplyMatrix(int[,] firstMartrix, int[,] secomdMartrix, int[,] resultMatrix)
+void MultiplyMatrix(int[,] firstarray, int[,] secondarray, int[,] resultarray)
 {
-  for (int i = 0; i < resultMatrix.GetLength(0); i++)
+  for (int i = 0; i < firstarray.GetLength(0); i++)
   {
-    for (int j = 0; j < resultMatrix.GetLength(1); j++)
+    for (int j = 0; j < firstarray.GetLength(1); j++)
     {
       int sum = 0;
-      for (int k = 0; k < firstMartrix.GetLength(1); k++)
+      for (int temp = 0; temp < firstarray.GetLength(1); temp++)
       {
-        sum += firstMartrix[i,k] * secomdMartrix[k,j];
+        sum += firstarray[i,temp] * secondarray[temp,j];
       }
-      resultMatrix[i,j] = sum;
+      resultarray[i,j] = sum;
     }
   }
 }
-PrintArray2D(resultMatrix);
+PrintArray2D(resultarray);
 
 void FillArray2D(int[,] array)
 {
