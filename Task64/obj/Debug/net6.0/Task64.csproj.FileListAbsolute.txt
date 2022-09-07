@@ -1,0 +1,15 @@
+/Users/aya/Учеба/C#/C_Sharp/Task64/bin/Debug/net6.0/Task64
+/Users/aya/Учеба/C#/C_Sharp/Task64/bin/Debug/net6.0/Task64.deps.json
+/Users/aya/Учеба/C#/C_Sharp/Task64/bin/Debug/net6.0/Task64.runtimeconfig.json
+/Users/aya/Учеба/C#/C_Sharp/Task64/bin/Debug/net6.0/Task64.dll
+/Users/aya/Учеба/C#/C_Sharp/Task64/bin/Debug/net6.0/Task64.pdb
+/Users/aya/Учеба/C#/C_Sharp/Task64/obj/Debug/net6.0/Task64.csproj.AssemblyReference.cache
+/Users/aya/Учеба/C#/C_Sharp/Task64/obj/Debug/net6.0/Task64.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aya/Учеба/C#/C_Sharp/Task64/obj/Debug/net6.0/Task64.AssemblyInfoInputs.cache
+/Users/aya/Учеба/C#/C_Sharp/Task64/obj/Debug/net6.0/Task64.AssemblyInfo.cs
+/Users/aya/Учеба/C#/C_Sharp/Task64/obj/Debug/net6.0/Task64.csproj.CoreCompileInputs.cache
+/Users/aya/Учеба/C#/C_Sharp/Task64/obj/Debug/net6.0/Task64.dll
+/Users/aya/Учеба/C#/C_Sharp/Task64/obj/Debug/net6.0/refint/Task64.dll
+/Users/aya/Учеба/C#/C_Sharp/Task64/obj/Debug/net6.0/Task64.pdb
+/Users/aya/Учеба/C#/C_Sharp/Task64/obj/Debug/net6.0/Task64.genruntimeconfig.cache
+/Users/aya/Учеба/C#/C_Sharp/Task64/obj/Debug/net6.0/ref/Task64.dll
